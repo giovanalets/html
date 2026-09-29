@@ -1,0 +1,74 @@
+/* Este arqivo contém SOMENTE regras css sem a Tag <style> 
+Ele está ligado ao index e sobre.html */
+
+header {
+        background-color: #66472d;
+    }
+    header h1 {
+        color: #ffffff;
+        margin: 0;
+        padding: 10px;
+        font-family: comic Sans MS, sans-serif;
+        text-align: center;
+    }
+    header p {
+        color: #ffffff;
+        margin: 0;
+        padding: 10px;
+        font-family: Georgia,serif;
+        text-align: center;
+    }
+    nav {
+        text-align: center;
+    }
+    nav button {
+        background-color: #5e4a38;
+        border: 2px solid #ffffff;
+        border-radius: 20px;
+        width: 90px; height: 50px;
+    }
+    nav a {
+        color: #ffffff;
+        text-decoration: none;
+        margin: 0 0px;
+        font-family: Arial,
+        sans-serif;
+    }
+    body{
+        background-color: #f59e3c;
+        margin: 0;
+    }
+    main {
+        padding: 20px;
+        width: 400px;
+        margin: auto;
+    }
+    main h2 {
+        text-align: center;
+        font-family: Georgia,serif;
+        color: #000000;
+    }
+    section {
+        background-color: #fdf4e6;
+        border: 2px solid #66472d;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+    section h3 {
+        margin: 0;
+        font-family: Georgia,serif;
+        color: #000000;
+    }
+    section p {
+        margin: 16px 0 0 0;
+        font-family: Verdana, sans-serif;
+        color: #442e1b;
+    }
+    footer {
+        background-color: #66472d;
+        color: #ffffff;
+        text-align: center;
+        padding: 10px;
+        font-family: comic Sans MS, sans-serif;
+    }
