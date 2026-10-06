@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafeteria Grão Dourado — Class e ID</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main>
+    <img src="./logo_manicure.png" alt ="Logo da Manicure">
+    <h1>Ana Luiza - Manicure</h1>
+    <h2>Catálogo 💅</h2>
+
+    <!-- CLASSE + ID: herda o visual de .card e o ID sobrescreve o que muda -->
+    <div class="card" id="promo-dia">
+      <h4 >Promoção do dia</h4>
+      <p>Manicure + Pedicure completas por R$ 35,00</p>
+    </div>
+
+    <!-- SÓ A CLASSE BASE -->
+    <div class="card">
+      <h4>Esmaltação em Gel (Mãos ou Pés)</h4>
+      <p>Duração: Até 20 dias com brilho e sem descascar. Secagem imediata na cabine LED/UV. R$ 60,00</p>
+    </div>
+
+    <div class="card">
+      <h4>Efeito Cromo / Sereia (Mãos ou Pés)</h4>
+      <p>Acabamento metalizado espelhado. R$ 35,00</p>
+    </div>
+
+    <!-- DUAS CLASSES: card + destaque (separadas por espaço) -->
+    <div class="card destaque">
+      <h4>SPA dos Pés</h4>
+      <p>Escalda-pés, esfoliação profunda, massagem e pedicure completas. R$ 70,00</p>
+    </div>
+
+    <!-- DUAS CLASSES: card + esgotado -->
+    <div class="card esgotado">
+      <h4>Blindagem</h4>
+      <p>Camada protetora sobre a unha natural para evitar quebras e ajudar no crescimento. 
+        <br>Volta amanhã! R$ 100,00</p>
+    </div>
+    <br>
+    <a href="../index.html"><button style="background-color: #80356e; color: #ffffff; border: 3px solid #f4f2f8; border-radius: 20px; width: 90px; height: 50px;">Tela Principal</button></a>
+  </main>
+  <footer>
+    Contato — (11)944422-2154  |  Endereço — Rua das Rosas, 123, Suzano-SP
+  </footer>
+
+</body>
+</html>
