@@ -94,7 +94,7 @@ label {
   font-weight: bold;
 }
 
-.campo {
+.campo {  /* Campos de texto, data, número, lista e área de texto (class="campo") */
   width: 100%;
   box-sizing: border-box;
   margin: 6px 0 12px;
