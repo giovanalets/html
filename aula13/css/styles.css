@@ -8,15 +8,11 @@ body {
   margin: 0;
 }
 
-.anotacao {
-  background-color: rgb(244, 248, 19);
-  padding: 5px;
-  text-align: center;
-  font-weight: bold;
-}
-
-.anotacao p {
-  margin: 8px 0;
+@font-face {
+  font-family: 'AMORIA'; /* Nome que você escolhe para a fonte */
+  src: url('./fonts/AMORIA.otf') format('opentype'); /* Caminho até o arquivo */
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* Cabeçalho */
@@ -25,15 +21,22 @@ body {
   text-align: center;
   color: white;
   background-color: #0a1128;                      /* reserva, caso a imagem não carregue */
-  background-image: url(../imagem/banner_responsivo.png);
+  background-image: url(../imagem/banner-responsivo2.png);
+  height: 300px;
   background-size: cover;
   background-position: center;
+}
+.cabecalho h1 {
+  font-family: 'AMORIA', sans-serif;
+  font-size: 50px;
+  margin: 0;
 }
 
 /* Barra de navegação: links lado a lado */
 .barra_nav {
+  text-align: center;
   display: flex;
-  background-color: #d86d08;
+  background-color: #6b4c2e;
 }
 
 .barra_nav a {
@@ -45,7 +48,7 @@ body {
 
 /* Trocar a cor quando o cursor estiver sobre o link */
 .barra_nav a:hover {
-  background-color: #ddd;
+  background-color: #f5f6a7;
   color: black;
 }
 
@@ -81,23 +84,50 @@ body {
 }
 
 /* Imagens falsas, apenas para marcar o espaço */
-.imagem_falsa {
+.imagem_moda {
   background-color: #ffe8b6bd;
   width: 100%;
+  background-image: url(../imagem/imagem-moda.png);
   height: 200px;
   padding: 20px;
 }
 
-.imagem_falsa2 {
+.imagem-1 {
   background-color: #c7313191;
+  background-image: url(../imagem/imagem-1.png);
   width: 100%;
-  height: 60px;
+  height: 80px;
+  padding: 20px;
+  margin-bottom: 16px;
+}
+.imagem-2 {
+  background-color: #c7313191;
+  background-image: url(../imagem/imagem-2.png);
+  width: 100%;
+  height: 80px;
+  padding: 20px;
+  margin-bottom: 16px;
+}
+.imagem-3 {
+  background-color: #c7313191;
+  background-image: url(../imagem/imagem-3.png);
+  width: 100%;
+  height: 80px;
   padding: 20px;
   margin-bottom: 16px;
 }
 
 .imagem_falsa3 {
   background-color: #313bc777;
+  background-image: url(../imagem/entrevista.png);
+  width: 100%;
+  height: 200px;
+  padding: 20px;
+}
+
+.imagem_falsa4 {
+  background-color: #313bc777;
+  background-image: url(../imagem/desfile.png);
   width: 100%;
   height: 200px;
   padding: 20px;
@@ -107,7 +137,7 @@ body {
 .rodape {
   padding: 20px;
   text-align: center;
-  background-color: #ddd;
+  background-color: rgb(253, 222, 151);
   font-size: 22px;
   font-weight: bold;
 }
@@ -128,6 +158,28 @@ body {
   }
 
   .cabecalho {
-    background-image: url(../imagem/banner-moda-celular.jpg);
+    background-image: url(../imagem/banner-moda-celular.png);
   }
+
+  .imagem_falsa3 {
+  background-color: #313bc777;
+  background-image: url(../imagem/entrevista-celular.png);
+  width: 100%;
+  height: 200px;
+  padding: 20px;
+}
+.imagem_falsa4 {
+  background-color: #313bc777;
+  background-image: url(../imagem/desfile-celular.png);
+  width: 100%;
+  height: 200px;
+  padding: 20px;
+}
+.imagem_moda {
+  background-color: #ffe8b6bd;
+  width: 100%;
+  background-image: url(../imagem/sobre-celular.png);
+  height: 200px;
+  padding: 20px;
+}
 }
