@@ -4,20 +4,20 @@
 
 /* Estilo do body */
 body {
-  font-family: Arial, sans-serif;
+  font-family: Georgia, serif;
   margin: 0;
 }
 
 @font-face {
-  font-family: 'AMORIA'; /* Nome que você escolhe para a fonte */
-  src: url('./fonts/AMORIA.otf') format('opentype'); /* Caminho até o arquivo */
+  font-family: 'AMORIA';
+  src: url('./fonts/AMORIA.otf') format('opentype'); 
   font-weight: normal;
   font-style: normal;
 }
 
 /* Cabeçalho */
 .cabecalho {
-  padding: 60px 20px;
+  padding: 60px 10px;
   text-align: center;
   color: white;
   background-color: #0a1128;                      /* reserva, caso a imagem não carregue */
@@ -27,9 +27,16 @@ body {
   background-position: center;
 }
 .cabecalho h1 {
-  font-family: 'AMORIA', sans-serif;
-  font-size: 50px;
+  font-family: 'AMORIA';
+  font-size: 70px;
   margin: 0;
+  text-shadow: 2px 2px 20px rgb(0, 0, 0); /* Sombra para o texto */
+  text-shadow: 5px 3px #000000; /* Sombra para o texto */
+}
+.cabecalho p {
+  font-size: 20px;
+  margin-top: 20px;
+  text-shadow: 3px 3px 10px rgb(0, 0, 0); /* Sombra para o texto */
 }
 
 /* Barra de navegação: links lado a lado */
