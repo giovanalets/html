@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: 'Sora';
-  src: url("fontes/sora-500.woff2") format("woff2");
+  src: url("../fontes/sora-500.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -456,13 +456,7 @@ header {
   display: flex;
   gap: 15px;
 }
-.rodape-icones a:hover i {
-  animation: sobe-e-desce 0.8s infinite alternate;
-}
-@keyframes sobe-e-desce {
-  from { transform: translateY(0) scale(1); }
-  to   { transform: translateY(-8px) scale(1.1); }
-}
+
 
 
 /* ===== BOTÃO FIXO DO WHATSAPP ===== */
